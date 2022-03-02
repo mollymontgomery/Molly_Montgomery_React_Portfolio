@@ -1,26 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+export default class About extends Component {
+  render() {
+    return (
+      <section id="about">
+        <div className="row">
 
-function Nav(props) {
-  const { currentTab, setCurrentTab } = props;
+          <div className="three columns">
+            <img className="headshot"  src="/assets/images/Headshot.jpg" alt="" />
+          </div>
 
-  return (
-    <nav>
-      <ul>
-        <li>
-          <span onClick={() => setCurrentTab("about")}>About Me</span>
-        </li>
-        <li>
-        <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
-        </li>
-        <li>
-          <span onClick={() => setCurrentTab("contact")}>Contact</span>
-        </li>
-        <li>    
-          <span onClick={() => setCurrentTab("resume")}>Resume</span>
-        </li>
-      </ul>
-    </nav>
-  );
-}
+        </div>
+      </section>
+    )
+  }
+};
 
-export default Nav;
+
