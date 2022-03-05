@@ -1,0 +1,34 @@
+:root{
+--primary: #dbcfb0;
+--secondary: #BFC8AD;
+--tertiary: #90B494;
+--quintiary: #718F94;
+--light: #fff;
+--dark: #545775;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: .1em;
+    background: var(--primary);
+    color: var(--dark);
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    background: var(--light);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: center;
+}
