@@ -3,16 +3,14 @@ import React from 'react';
 function About() {
   return (
     <section>
-      <div className="center" id="about">
-        <h1 className="page-header">About Me</h1>
-      </div>
-      <div className="center">
-        <img
+      <div class="header">
+          <img
           src={require('../../assets/images/cover.jpeg')}
           alt="about-me"
           className="photo"
-        />
-      </div>
+        /><div>About Me</div>
+          </div>
+
       <div>
         <p>
         I am working towards gaining the skills necessary to be a fullstack developer 
