@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from "react";
+import Card from "react-bootstrap/Card";
 
-function Projects() {
-    return (
-        <div></div>
-    );
+function Project(props) {
+	return (
+		<div className="card"
+	)
+	);
 }
 
-export default Projects;
+export default Project;
