@@ -7,6 +7,7 @@
 --dark: #545775;
 --spacing-one: calc(1rem * 0.5);
 --spacing-two: calc(1rem);
+--spacing-five: calc(2.5rem);
 }
 * {
     box-sizing: border-box;
@@ -71,6 +72,51 @@ h6 {
     margin: 5px 0;
     line-height: 1.25;
 }
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+a {
+    color: var(--tertiary);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 2px 4px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 ol li {
     list-style: inside;
@@ -277,13 +323,21 @@ input:focus {
 
 .footer {
     display: flex;
+    align-items: center;
     background-color: var(--light);
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10px;
-    margin-top: auto;
+    min-height: 100px;
+    padding: 20px;
+    bottom: 0;
+
 }
+
 .aboutMe {
     padding-right: 500px;
     border: 100px;
+}
+
+div#mainBody {
+    padding: 80px;
 }

@@ -32,7 +32,7 @@ function App() {
 			<div className="mobile-header">
 				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
 			</div>
-			<div>
+			<div id="mainBody">
 				<main>{renderTab()}</main>
 			</div>
 			<div>

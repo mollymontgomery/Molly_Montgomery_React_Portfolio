@@ -4,78 +4,68 @@ import Project from '../../components/Projects';
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Project1',
-			description:
-            'This is where the desription will go',
-            image: 'placeholder.png',
+			name: 'Run Buddy',
+            image: 'run-buddy.png',
 			technologies: [
 				'HTML/CSS',
-				'JavaScript',
-		
 			],
 			github: 'https://github.com/mollymontgomery',
-			deployed: 'https://github.com/mollymontgomery',
+			deployed: 'https://mollymontgomery.github.io/run-buddy/',
 		},
         {
-			name: 'Project2',
-			description:
-            'This is where the desription will go',
+			name: 'Recipe Guide',
             image: 'placeholder.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
-		
+				'API',
 			],
 			github: 'https://github.com/mollymontgomery',
-			deployed: 'https://github.com/mollymontgomery',
+			deployed: 'https://mollymontgomery.github.io/Group-11-Project/',
 		},
 		{
-			name: 'Project3',
-			description:
-            'This is where the desription will go',
-            image: 'placeholder.png',
+			name: 'HTML/CSS Portfolio',
+            image: 'portfolioOne.jpg',
 			technologies: [
 				'HTML/CSS',
-				'JavaScript',
 			],
 			github: 'https://github.com/mollymontgomery',
-			deployed: 'https://github.com/mollymontgomery',
+			deployed: 'https://mollymontgomery.github.io/Professional_Portfolio/',
 		},
         {
-			name: 'Project4',
-			description:
-            'This is where the desription will go',
-            image: 'placeholder.png',
+			name: 'Tech Blog',
+            image: 'techblog.jpg',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
+				'Handlebars',
 			],
-			github: 'https://github.com/mollymontgomery',
-			deployed: 'https://github.com/mollymontgomery',
+			github: 'https://github.com/mollymontgomery/Tech_Blog',
+			deployed: 'https://rocky-inlet-09350.herokuapp.com/',
 		},
 		{
-			name: 'Project5',
-			description:
-            'This is where the desription will go',
+			name: 'BookShelf',
             image: 'placeholder.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
+				'Handlebars',
+				'API',
 			],
-			github: 'https://github.com/mollymontgomery',
-			deployed: 'https://github.com/mollymontgomery',
+			github: 'https://github.com/AlexTheAmateur/BookShelf',
+			deployed: ' https://bookshelf22.herokuapp.com/',
 		},
 		{
-			name: 'Project6',
-			description:
-            'This is where the desription will go',
+			name: 'Social Network API',
             image: 'placeholder.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
+				'Mongoose',
+				'MongoDB',
+				'Insomnia',
 			],
-			github: 'https://github.com/mollymontgomery',
-			deployed: 'https://github.com/mollymontgomery',
+			github: 'https://github.com/mollymontgomery/Social_Network_API',
 		},
 	];
 
