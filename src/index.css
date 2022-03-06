@@ -14,7 +14,7 @@
 
 html,
 body {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 main {
@@ -41,6 +41,14 @@ header {
     padding: 1rem;
     text-align: center;
 }
+.photo {
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    max-width: 280px;
+    max-height: 540px;
+}
+
 h1,
 h2,
 h3,
