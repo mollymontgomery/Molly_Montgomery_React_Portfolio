@@ -66,6 +66,7 @@ function Portfolio() {
 				'Insomnia',
 			],
 			github: 'https://github.com/mollymontgomery/Social_Network_API',
+			deployed: 'https://github.com/mollymontgomery/Social_Network_API',
 		},
 	];
 
