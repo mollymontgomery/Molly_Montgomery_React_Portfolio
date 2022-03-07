@@ -2,8 +2,7 @@
 
   ## Description
   This is my React professional portfolio. You will be able to read about me, my portfolio, contact me form and see my resume.<br>
-  Deployed app: 
-
+  Deployed app: https://mollymontgomery.github.io/Molly_Montgomery_React_Portfolio/
 
   ## Table of Contents
   
