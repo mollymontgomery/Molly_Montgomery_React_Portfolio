@@ -1,4 +1,4 @@
-# Social_Network_API
+# React Portfolio
 
   ## Description
   This is my React professional portfolio. You will be able to read about me, my portfolio, contact me form and see my resume.<br>
