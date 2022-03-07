@@ -5,7 +5,7 @@ function Portfolio() {
 	const projects = [
 		{
 			name: 'Run Buddy',
-            image: 'run-buddy.png',
+            image: 'run-buddy.jpeg',
 			technologies: [
 				'HTML/CSS',
 			],
@@ -14,7 +14,7 @@ function Portfolio() {
 		},
         {
 			name: 'Recipe Guide',
-            image: 'placeholder.png',
+            image: 'Main_Page.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
@@ -45,7 +45,7 @@ function Portfolio() {
 		},
 		{
 			name: 'BookShelf',
-            image: 'placeholder.png',
+            image: 'bookshelf.jpg',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
@@ -57,7 +57,7 @@ function Portfolio() {
 		},
 		{
 			name: 'Social Network API',
-            image: 'placeholder.png',
+            image: 'social.jpg',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
