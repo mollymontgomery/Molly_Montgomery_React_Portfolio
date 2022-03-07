@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Molly_Montgomery_React_Portfolio/static/css/main.a0e8f872.css",
+    "main.js": "/Molly_Montgomery_React_Portfolio/static/js/main.cfd19278.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Molly_Montgomery_React_Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/run-buddy.jpeg": "/Molly_Montgomery_React_Portfolio/static/media/run-buddy.20f564504fab2916d316.jpeg",
+    "static/media/Main_Page.png": "/Molly_Montgomery_React_Portfolio/static/media/Main_Page.8f252c08f044afd565fe.png",
+    "static/media/IMG_4373.jpg": "/Molly_Montgomery_React_Portfolio/static/media/IMG_4373.f14c0990db165877a6b6.jpg",
+    "static/media/social.jpg": "/Molly_Montgomery_React_Portfolio/static/media/social.6101557b4c07a13d838a.jpg",
+    "static/media/finishedPortfolio.jpg": "/Molly_Montgomery_React_Portfolio/static/media/finishedPortfolio.a55ade68375d38e73b50.jpg",
+    "static/media/portfolioOne.jpg": "/Molly_Montgomery_React_Portfolio/static/media/portfolioOne.d9bae48c3b2a75875264.jpg",
+    "static/media/Resume.pdf": "/Molly_Montgomery_React_Portfolio/static/media/Resume.5c558020e67b12587bae.pdf",
+    "static/media/bookshelf.jpg": "/Molly_Montgomery_React_Portfolio/static/media/bookshelf.457c5a23b05d841d31bb.jpg",
+    "static/media/techblog.jpg": "/Molly_Montgomery_React_Portfolio/static/media/techblog.c3f9c3d1a39731f6986e.jpg",
+    "static/media/linkedin.png": "/Molly_Montgomery_React_Portfolio/static/media/linkedin.7a5eab93c7daf7d2ceeb.png",
+    "index.html": "/Molly_Montgomery_React_Portfolio/index.html",
+    "main.a0e8f872.css.map": "/Molly_Montgomery_React_Portfolio/static/css/main.a0e8f872.css.map",
+    "main.cfd19278.js.map": "/Molly_Montgomery_React_Portfolio/static/js/main.cfd19278.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Molly_Montgomery_React_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0e8f872.css",
+    "static/js/main.cfd19278.js"
+  ]
+}
