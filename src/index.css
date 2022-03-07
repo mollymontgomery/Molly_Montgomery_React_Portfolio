@@ -59,6 +59,7 @@ img.photo {
 
 blockquote#quote {
     display: inline-block;
+    font: caption;
 }
 
 h1,
