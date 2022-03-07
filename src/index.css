@@ -342,6 +342,19 @@ li.padding {
     padding: 95px;
 }
 
+.navActive {
+    color: var(--tertiary);
+}
+
+@media screen and (max-width: 817px) {
+    .mobile-view {
+        display: inline;
+        text-align: end;
+    } 
+}
+
+@media screen and (max-width: 817px) {}
+
 @media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 575px) {}
