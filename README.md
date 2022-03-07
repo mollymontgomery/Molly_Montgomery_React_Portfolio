@@ -1,7 +1,8 @@
 # Social_Network_API
 
   ## Description
-  This is my React professional portfolio. You will be able to read about me, my portfolio, contact me form and see my resume. 
+  This is my React professional portfolio. You will be able to read about me, my portfolio, contact me form and see my resume.<br>
+  Deployed app: 
 
 
   ## Table of Contents
@@ -24,7 +25,7 @@
 
   ## Demo
   #### Main Page
-![Finished_Portfolio](../assets/images/finishedPortfolio.jpg "Finished Portfolio")<br>
+![Finished_Portfolio](src/assets/images/finishedPortfolio.jpg "Finished Portfolio")<br>
 
   ## Credits
   Stack Overflow <br> 
