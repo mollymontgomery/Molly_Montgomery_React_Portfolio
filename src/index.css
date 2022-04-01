@@ -345,7 +345,96 @@ li.padding {
 .navActive {
     color: var(--tertiary);
 }
-
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .img-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-wrapper img {
+    max-width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1.5;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px;
+    border: 2px solid black;
+  }
+  
+  .img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 3rem;
+    background: rgba(255, 255, 255, .4);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .img-wrapper > img,
+  .img-wrapper > .content {
+    transition: 200ms ease-in-out;
+  }
+  
+  .img-wrapper:hover > img.blur {
+    filter: blur(5px);
+    margin: 0px;
+  }
+  
+  .img-wrapper > .content.fade {
+    opacity: 0;
+  }
+  
+  .img-wrapper:hover > .content.fade {
+    opacity: 1;
+    margin: 0px;
+  }
+  
+  .content.fade button {
+    padding: 10px;
+  }
+  
+  .content.fade button:hover {
+    cursor:inherit;
+    background-color: darkgray;
+  }
+  
+  .content.fade h3 {
+    text-decoration:underline;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .img-wrapper img {
+      max-width: 200px;
+    }
+  
+    .img-wrapper {
+      margin-left: 90px;
+      margin-bottom: 10px;
+    }
+  
+    .content.fade h3 {
+      font-size: 18px;
+      margin-right: 70px;
+    }
+  
+    .content.fade button {
+      margin-right: 70px;
+      margin-bottom: 0px;
+    }
+  
+    .img-wrapper > .content {
+      line-height: 1.5rem;
+    }
+  }
 @media screen and (max-width: 817px) {
     .mobile-view {
         display: inline;

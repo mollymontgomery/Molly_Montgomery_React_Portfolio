@@ -1,53 +1,66 @@
-import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
+import bookShelfImg from "../../assets/images/bookshelf.jpg";
+import DinderImg from "../../assets/images/Dinder.png";
+import portfolioOne from "../../assets/images/portfolioOne.jpg";
+import recipeImg from "../../assets/images/recipe.png";
+import runBuddy from "../../assets/images/run-buddy.jpeg";
+import socialNetwork from "../../assets/images/social.jpg";
 
-function Project(props) {
-	// This imports the information for the current project sent down.
-	const currentProject = useState(props)[0].projects;
 
-	const name = currentProject.name;
-	const image = currentProject.image;
-	const techs = currentProject.technologies;
-	const appLink = currentProject.deployed;
-	const gitLink = currentProject.github;
-
-	// This function parses the information from the array and creates a list.
-	function getTechs(techArray) {
-		let techList = "";
-
-		for (var i = 0; i < techArray.length; i++) {
-			if (i === techArray.length - 1) {
-				techList += techArray[i];
-			} else {
-				techList += techArray[i] + ", ";
-			}
-		}
-
-		return techList;
+const projects = [
+	{
+		"id": 1,
+		"images": bookShelfImg,
+		"alt": "Screenshot of BookShelf homepage",
+		"title": "BookShelf",
+		"className": "blur",
+		"deployedUrl": "https://bookshelf22.herokuapp.com/",
+		"githubUrl": "https://github.com/mollymontgomery/BookShelf"
+	},
+	{
+		"id": 2,
+		"images": DinderImg,
+		"alt": "Screenshot of the Dinder app hoomepage",
+		"title": "Dinder",
+		"className": "blur",
+		"deployedUrl": "http://dinder-dog.herokuapp.com/",
+		"githubUrl": "https://github.com/mollymontgomery/doggy-days"
+	},
+	{
+		"id": 3,
+		"images": portfolioOne,
+		"alt": "Screenshot of my first portfolio",
+		"title": "Portfolio HTML/CSS",
+		"className": "blur",
+		"deployedUrl": "https://mollymontgomery.github.io/Professional_Portfolio/",
+		"githubUrl": "https://github.com/mollymontgomery/Professional_Portfolio"
+	},
+	{
+		"id": 4,
+		"images": recipeImg,
+		"alt": "Screenshot of the recipe guide app homepage",
+		"title": "Recipe Guide",
+		"className": "blur",
+		"deployedUrl": "https://mollymontgomery.github.io/Group-11-Project/",
+		"githubUrl": "https://github.com/mollymontgomery/Group-11-Project"
+	},
+	{
+		"id": 5,
+		"images": runBuddy,
+		"alt": "The run buddy app homepage",
+		"title": "Run Buddy",
+		"className": "blur",
+		"deployedUrl": "https://mollymontgomery.github.io/run-buddy/",
+		"githubUrl": "https://github.com/mollymontgomery/run-buddy"
+	},
+	{
+		"id": 6,
+		"images": socialNetwork,
+		"alt": "Screenshot of the backend of the Social Network app",
+		"title": "Social Network API",
+		"className": "blur",
+		"githubUrl": "https://github.com/mollymontgomery/Social_Network_API"
 	}
+]
 
-	return (
-		<Card style={{ width: "18rem" }}>
-			<Card.Img
-				variant="top"
-				src={require(`../../assets/images/${image}`)}
-				className="card-image"
-			/>
-			<div className="center">
-				<Card.Body>
-					<Card.Title className="card-title">{name}</Card.Title>
-					<Card.Subtitle className="card-subtitle">Techs Used</Card.Subtitle>
-					<Card.Text className="card-techs">{getTechs(techs)}</Card.Text>
-					<Card.Link href={appLink} target="_blank" className="card-link">
-						{name} App
-					</Card.Link><br></br>
-					<Card.Link href={gitLink} target="_blank" className="card-link">
-						{name} Github
-					</Card.Link>
-				</Card.Body>
-			</div>
-		</Card>
-	);
-}
+export default projects;
 
-export default Project;

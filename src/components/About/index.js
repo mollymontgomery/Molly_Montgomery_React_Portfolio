@@ -14,7 +14,7 @@ function About() {
             />
           <blockquote id="quote">
             <p id="quote-text">
-              Hi, I'm Molly! A Fullstack Coding Bootcamp Graduate.<br></br>
+              Hi, I'm Molly!<br></br>
             </p>
           </blockquote>
         </div>
@@ -23,9 +23,9 @@ function About() {
 
       <div className="aboutMe">
         <p>
-          I am working towards gaining the skills necessary to be a fullstack developer
-          at the University of Minnesota Coding Bootcamp. Currently, I am working as a
-          Facility Manager and have my Bachelor's degree from the University of Northern Iowa.
+          I am a recent graduate from the University of Minnesota Coding Bootcamp where I earned a certificate of completion.  
+          I am aspiring to become a full stack web developer. I am excited to continue to build my coding knowledge and skills.
+          Currently, I am working as a Facility Manager and have my Bachelor's degree from the University of Northern Iowa.
         </p>
         <p>
           I am located in the Kansas City metro area. In my free time I love to explore the city
