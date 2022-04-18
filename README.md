@@ -27,6 +27,7 @@
 ![Finished_Portfolio](src/assets/images/finishedPortfolio.jpg "Finished Portfolio")<br>
 
   ## Credits
+  Molly Montgomery <br>
   Stack Overflow <br> 
   Brian Gearty - My tutor
 
